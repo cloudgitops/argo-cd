@@ -1,7 +1,7 @@
 apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 resources:
-- ./base
+- install.yaml 
 - ingress.yaml
 patches:
 - path: redis_patch.json
