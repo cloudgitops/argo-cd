@@ -8,8 +8,8 @@ metadata:
 spec:
   project: production 
   source:
-    path: apps 
-    repoURL: https://github.com/cloudgitops/argo-cd.git 
+    path: helm-guestbook 
+    repoURL: https://github.com/cloudgitops/argocd-example-apps.git
     targetRevision: HEAD
   destination:
     server: https://kubernetes.default.svc 
