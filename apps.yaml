@@ -8,11 +8,11 @@ metadata:
 spec:
   project: development
   source:
-    path: controller
-    repoURL: https://github.com/cloudgitops/argo-cd.git
+    path: helm-guestboook
+    repoURL: https://github.com/cloudgitops/argocd-example-apps.git
     targetRevision: HEAD
   destination:
-    server: https://kubernetes.default.svc
+    server: https://guestbook.jamesknott.ai
   syncPolicy:
     automated:
       selfHeal: true
