@@ -10,7 +10,7 @@ spec:
   source:
     path: helm-sample-app-master/charts/helm-example 
     repoURL: https://github.com/cloudgitops/argocd-example-apps.git
-    targetRevision: HEAD
+    targetRevision: 
   destination:
     server: https://kubernetes.default.svc 
     namespace: production
